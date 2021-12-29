@@ -1,0 +1,35 @@
+.itemWrapper {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.item {
+  width: 80%;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-right: auto;
+}
+
+.btnItem {
+  height: 30px;
+  border: none;
+  background-color: none;
+  margin-right: 20px;
+}
+
+.btnItem:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.notCompleted {
+  background-color: #7bb4e3;
+}
+
+.completed {
+  background-color: #aef359;
+}
